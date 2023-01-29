@@ -1,0 +1,146 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(rgba(174,255,156,1), rgb(131, 255, 103));
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 40px;
+}
+body{
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(220,70,70,1) 0%, rgba(174,255,156,1) 100%);
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 3rem;
+}
+
+
+
+.links{
+    color: black;
+    text-decoration: none;
+}
+.p:hover{
+    color: grey;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.grey{
+    color: grey;
+}
+.asdf{
+    color: black;
+    text-decoration: none;
+}
+.cards-container{
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    margin-top: 2rem;
+    width: 300px; 
+    border: 2px solid;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.raitings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.purchase, .more-info{
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 10px;
+}
+.loading{
+    font-size: 70px;
+    color: black;
+    width: 100%;
+}
+.pagination{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.prev, .next{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: grey;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+}
+.more{
+    width: 1300px;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 35px;
+}
+.more-img{
+    width: 400px;
+    border-radius: 10px;
+}
